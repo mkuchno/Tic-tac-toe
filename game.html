@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<title>Tic-tac-toe</title>
+
+		<link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="css/game.css">
+		<script src="js/game.js"></script>
+
+	</head>
+
+	<body>
+
+		<div class = "container-fluid">
+
+			<div class = "row">
+
+				<div class = "col-sm-3" id = "left_menu">
+					
+					<h1>Menu:</h1>
+					<button id = "reset" type = "button" class = "btn btn-warning">clear board</button><br/>
+					<button id = "score" type = "button" class = "btn btn-danger">reset scores</button>
+
+					<h2>Result:</h2>
+					<div id = "result">
+						<h3><span class = "glyphicon glyphicon-user"></span> 1: <p id = "p1_score">0</p></h3>
+						<h3><span class = "glyphicon glyphicon-user"></span> 2: <p id = "p2_score">0</p></h3>
+					</div>
+
+				</div>
+
+				<div class = "col-sm-6">
+
+					<table>
+
+					    <tbody>
+					      <tr>
+					      	<td><img id = "t1" class = "board" src = "photos/none.jpg" width="180" height="180"/></td>
+					        <td><img id = "t2" class = "board" src = "photos/none.jpg" width="180" height="180"/></td>
+					        <td><img id = "t3" class = "board" src = "photos/none.jpg" width="180" height="180"/></td>
+					      </tr>
+
+					      <tr>
+					        <td><img id = "t4" class = "board" src = "photos/none.jpg" width="180" height="180"/></td>
+					        <td><img id = "t5" class = "board" src = "photos/none.jpg" width="180" height="180"/></td>
+					        <td><img id = "t6" class = "board" src = "photos/none.jpg" width="180" height="180"/></td>
+					      </tr>
+
+					      <tr>
+					        <td><img id = "t7" class = "board" src = "photos/none.jpg" width="180" height="180"/></td>
+					        <td><img id = "t8" class = "board" src = "photos/none.jpg" width="180" height="180"/></td>
+					        <td><img id = "t9" class = "board" src = "photos/none.jpg" width="180" height="180"/></td>
+					      </tr>
+					    </tbody>
+
+					</table>
+					
+				</div>
+
+				<div class = "col-sm-3" id = "right_menu">
+
+					<h3 class = "right_h3" id = "p1_view"><span class = "glyphicon glyphicon-user"></span> 1: 
+					<img id = "p1_type" src = "photos/x.jpg" width = "45" height = "45"/><br/></h3>
+
+					<h3 class = "right_h3" id = "p2_view"><span class = "glyphicon glyphicon-user"></span> 2: 
+					<img id = "p2_type" src = "photos/o.jpg" width = "45" height = "45"/></h3>
+
+					<div id = "info" class = "alert alert-danger alert-dismissible">
+					  <a href = "#" class = "close" data-dismiss = "alert" aria-label = "close">&times;</a>
+					  <strong>Note!</strong><br/>After each game there is a swap.
+					</div>
+
+					<div id = "info" class = "alert alert-warning alert-dismissible">
+					  <a href = "#" class = "close" data-dismiss = "alert" aria-label = "close">&times;</a>
+					  <strong>Note!</strong><br/>The yellow color shows who has movement. 
+					</div>
+
+					<div id = "game_alert" class = "alert alert-info alert-dismissible collapse">
+					  <a id = "game_alert_close" href = "#" class = "close" aria-label = "close">&times;</a>
+					  <p id = "game_alert_text"></p>
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</body>
+
+</html> 

@@ -1,0 +1,83 @@
+table, td, tr{  
+
+	border: 2px solid black;
+	text-align: left;
+}
+
+table{
+
+	border: hidden;
+}
+
+button, p{
+
+	margin-top: 5px;
+	font-size: 40px;
+}
+
+#score{
+
+	margin-bottom: 30px;
+	width: 150px;
+}
+
+#reset{
+
+	width: 150px;
+}
+
+#left_menu{
+
+	padding-left: 50px;
+}
+
+#right_menu{
+
+	margin-top: 50px;
+}
+
+#info{
+
+	margin-top: 25px;
+}
+
+#result{
+
+	margin-left: 25px;
+	margin-top: 30px;
+}
+
+#game_alert_text{
+
+	display: inline;
+}
+
+#game_alert{
+
+	font-size: 25px;
+	margin-top: 25px;
+}
+
+#p1_score{
+
+	color: green;
+	margin-bottom: 30px;
+}
+
+#p2_score{
+
+	color: blue;
+	margin-bottom: 15px;
+}
+
+.container-fluid{
+
+	margin-top: 10px;
+}
+
+.right_h3{
+
+	margin-left: 50px;
+	clear: both;
+	display: inline;
+}
