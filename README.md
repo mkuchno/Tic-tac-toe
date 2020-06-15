@@ -11,4 +11,4 @@ A simple tic-tac-toe game as a website.
 * JQuery
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License.
