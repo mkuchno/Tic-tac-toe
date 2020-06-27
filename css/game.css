@@ -36,7 +36,7 @@ button, p{
 	margin-top: 50px;
 }
 
-#info{
+.info{
 
 	margin-top: 25px;
 }
@@ -62,12 +62,14 @@ button, p{
 
 	color: green;
 	margin-bottom: 30px;
+	font-size: 40px;
 }
 
 #p2_score{
 
 	color: blue;
 	margin-bottom: 15px;
+	font-size: 40px;
 }
 
 .container-fluid{

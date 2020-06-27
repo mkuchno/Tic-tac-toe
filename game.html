@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 	<head>
+
+		<meta charset="UTF-8">
 
 		<title>Tic-tac-toe</title>
 
@@ -28,8 +30,8 @@
 
 					<h2>Result:</h2>
 					<div id = "result">
-						<h3><span class = "glyphicon glyphicon-user"></span> 1: <p id = "p1_score">0</p></h3>
-						<h3><span class = "glyphicon glyphicon-user"></span> 2: <p id = "p2_score">0</p></h3>
+						<h3><span class = "glyphicon glyphicon-user"></span> 1: <span id = "p1_score">0</span></h3>
+						<h3><span class = "glyphicon glyphicon-user"></span> 2: <span id = "p2_score">0</span></h3>
 					</div>
 
 				</div>
@@ -40,21 +42,21 @@
 
 					    <tbody>
 					      <tr>
-					      	<td><img id = "t1" class = "board" src = "photos/none.jpg" width="180" height="180"/></td>
-					        <td><img id = "t2" class = "board" src = "photos/none.jpg" width="180" height="180"/></td>
-					        <td><img id = "t3" class = "board" src = "photos/none.jpg" width="180" height="180"/></td>
+					      	<td><img id = "t1" class = "board" src = "photos/none.jpg" width="180" height="180" alt=""/></td>
+					        <td><img id = "t2" class = "board" src = "photos/none.jpg" width="180" height="180" alt=""/></td>
+					        <td><img id = "t3" class = "board" src = "photos/none.jpg" width="180" height="180" alt=""/></td>
 					      </tr>
 
 					      <tr>
-					        <td><img id = "t4" class = "board" src = "photos/none.jpg" width="180" height="180"/></td>
-					        <td><img id = "t5" class = "board" src = "photos/none.jpg" width="180" height="180"/></td>
-					        <td><img id = "t6" class = "board" src = "photos/none.jpg" width="180" height="180"/></td>
+					        <td><img id = "t4" class = "board" src = "photos/none.jpg" width="180" height="180" alt=""/></td>
+					        <td><img id = "t5" class = "board" src = "photos/none.jpg" width="180" height="180" alt=""/></td>
+					        <td><img id = "t6" class = "board" src = "photos/none.jpg" width="180" height="180" alt=""/></td>
 					      </tr>
 
 					      <tr>
-					        <td><img id = "t7" class = "board" src = "photos/none.jpg" width="180" height="180"/></td>
-					        <td><img id = "t8" class = "board" src = "photos/none.jpg" width="180" height="180"/></td>
-					        <td><img id = "t9" class = "board" src = "photos/none.jpg" width="180" height="180"/></td>
+					        <td><img id = "t7" class = "board" src = "photos/none.jpg" width="180" height="180" alt=""/></td>
+					        <td><img id = "t8" class = "board" src = "photos/none.jpg" width="180" height="180" alt=""/></td>
+					        <td><img id = "t9" class = "board" src = "photos/none.jpg" width="180" height="180" alt=""/></td>
 					      </tr>
 					    </tbody>
 
@@ -65,17 +67,17 @@
 				<div class = "col-sm-3" id = "right_menu">
 
 					<h3 class = "right_h3" id = "p1_view"><span class = "glyphicon glyphicon-user"></span> 1: 
-					<img id = "p1_type" src = "photos/x.jpg" width = "45" height = "45"/><br/></h3>
+					<img id = "p1_type" src = "photos/x.jpg" width = "45" height = "45" alt=""/><br/></h3>
 
 					<h3 class = "right_h3" id = "p2_view"><span class = "glyphicon glyphicon-user"></span> 2: 
-					<img id = "p2_type" src = "photos/o.jpg" width = "45" height = "45"/></h3>
+					<img id = "p2_type" src = "photos/o.jpg" width = "45" height = "45" alt=""/></h3>
 
-					<div id = "info" class = "alert alert-danger alert-dismissible">
+					<div class = "alert alert-danger alert-dismissible info">
 					  <a href = "#" class = "close" data-dismiss = "alert" aria-label = "close">&times;</a>
 					  <strong>Note!</strong><br/>After each game there is a swap.
 					</div>
 
-					<div id = "info" class = "alert alert-warning alert-dismissible">
+					<div class = "alert alert-warning alert-dismissible info">
 					  <a href = "#" class = "close" data-dismiss = "alert" aria-label = "close">&times;</a>
 					  <strong>Note!</strong><br/>The yellow color shows who has movement. 
 					</div>
